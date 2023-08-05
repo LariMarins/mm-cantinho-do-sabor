@@ -13,7 +13,7 @@ export class Quadro extends LitElement {
        
         border-radius: 8px;
         background: #F9C0B3;
-        box-shadow: 0px 24px 34px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 24px 34px 0px rgba(0, 0, 0, 0.60);
 
         aspect-ratio: 167 / 130;
         overflow:hidden;

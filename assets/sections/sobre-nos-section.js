@@ -19,6 +19,14 @@ export class SobreNosSection extends LitElement {
         flex-direction: column;
         gap: 4.375rem;
       }
+      app-botao{
+        width: 380px;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content:center;
+      
+      }
     `,
   ];
 

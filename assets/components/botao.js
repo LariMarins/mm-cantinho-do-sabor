@@ -10,8 +10,9 @@ export class Botao extends LitElement {
        ::slotted(button),
        ::slotted(a),
        button {
-        width: 300px;
+        width: 100%;
         height: 50px;
+
 
         display: flex;
         padding: 5px 24px;

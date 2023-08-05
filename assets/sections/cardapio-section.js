@@ -17,6 +17,7 @@ export class CardapioSection extends LitElement {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content:center;
         gap: 73px;
       }
 
@@ -34,6 +35,15 @@ export class CardapioSection extends LitElement {
         justify-content: center;
         align-items: center;
         transition: transform 500ms;
+      }
+
+      app-botao{
+        width: 400px;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content:center;
+      
       }
     `,
   ];
