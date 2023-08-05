@@ -4,7 +4,7 @@ export const section = css`
   :host {
     display: flex;
     width: 1024px;
-    height: 744px;
+    height: 702px;
     padding: 32px;
     flex-direction: column;
     justify-content: flex-end;

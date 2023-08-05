@@ -10,13 +10,15 @@ export class Botao extends LitElement {
        ::slotted(button),
        ::slotted(a),
        button {
-        width: inherit;
+        width: 300px;
+        height: 50px;
 
         display: flex;
         padding: 5px 24px;
         border: 0;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
+        flex-direction:center;
 
         border-radius: 8px;
         background-color: var(
@@ -30,9 +32,9 @@ export class Botao extends LitElement {
         color:white;
         text-align: center;
         font-family: var(--fonte-corpo);
-        font-size: 1rem;
+        font-size: 2.5rem;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         line-height: normal;
         white-space: nowrap;
         text-decoration: none;
