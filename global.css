@@ -1,0 +1,23 @@
+root {
+    --cor-primaria: #7a5252;
+    --cor-secundaria: #473030;
+    --tom1:#2e1111;
+    --tom2: #7a2d2d;
+    --tom3:#c74a4a;
+
+    --fonte-titulo: 'Exo', sans-serif;
+    --fonte-corpo: 'Source Serif 4', sans-serif;
+}
+
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+   
+    background-color:#f9c0b3;
+}
