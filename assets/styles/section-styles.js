@@ -2,17 +2,15 @@ import { css } from "lit";
 
 export const section = css`
   :host {
-    width: 100%;
-    height: 100svh;
-
     display: flex;
-
+    width: 1024px;
+    height: 744px;
     padding: 32px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    gap: 68px;
     flex-shrink: 0;
+    overflow: hidden;
   }
 
   button:hover,

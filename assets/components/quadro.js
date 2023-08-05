@@ -5,14 +5,14 @@ export class Quadro extends LitElement {
     css`
       :host {
         display: flex;
-        width:415vw;
+        width:415px;
         max-width:369px;
         height: auto;
         justify-content: center;
         align-items: center;
        
         border-radius: 8px;
-        background: #d9d9d9;
+        background: #F9C0B3;
         box-shadow: 0px 24px 34px 0px rgba(0, 0, 0, 0.25);
 
         aspect-ratio: 167 / 130;

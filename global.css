@@ -1,7 +1,7 @@
 :root {
-    --cor-primaria: #7a5252;
+    --cor-primaria: #7A5252;
     --cor-secundaria: #473030;
-    --tom1:#2e1111;
+    --tom1:#2E1111;
     --tom2: #7a2d2d;
     --tom3:#c74a4a;
    
@@ -16,8 +16,6 @@ html{
 
 body{
     margin: 0 auto;
-    width: 100%;
     max-width: 1024px;
-   
     background-color:#f9c0b3;
 }
