@@ -8,16 +8,16 @@ export class CardapioSection extends LitElement {
       :host {
         display: flex;
         flex-direction: row;
-        justify-content:center;
-        align-items:center;
-        gap:3.75rem;
+        justify-content: center;
+        align-items: center;
+        gap: 3.75rem;
       }
 
       aside {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         gap: 73px;
       }
 
@@ -27,24 +27,24 @@ export class CardapioSection extends LitElement {
       }
 
       swiper-container {
-        width: 415px;
-        height: 370px;
+        width: 100%;
+        height: 100%;
       }
       swiper-slide {
         display: flex;
-        justify-content: center;
+        justify-content: row;
+        flex-direction: row;
         align-items: center;
         transition: transform 500ms;
-        height:100%;
+        height: 370px;
       }
 
-      app-botao{
+      app-botao {
         width: 400px;
         display: flex;
         flex-direction: center;
         align-items: center;
-        justify-content:center;
-      
+        justify-content: center;
       }
     `,
   ];
@@ -54,7 +54,7 @@ export class CardapioSection extends LitElement {
       <aside>
         <app-quadro>
           <swiper-container
-            loop="true"
+          loop="true"
             autoplay="true"
             speed="3000"
             disabled-on-interaction="false"
@@ -65,22 +65,22 @@ export class CardapioSection extends LitElement {
             coverflow-effect-stretch="0"
             coverflow-effect-depth="100"
             coverflow-effect-modifier="1"
-            coverflow-effect-slide-shadows="true">
-            
+            coverflow-effect-slide-shadows="true"
+          >
             <swiper-slide>
-              <img loading="lazy" src="prato1.jpg" alt="prato1">
+              <img src="prato1.jpg" alt="imagem1" />
             </swiper-slide>
             <swiper-slide>
-              <img loading="lazy" src="prato2.jpg" alt="prato2">
+              <img src="prato2.jpg" alt="imagem2" />
             </swiper-slide>
             <swiper-slide>
-              <img loading="lazy" src="prato3.jpg" alt="prato3">
+              <img src="prato3.jpg" alt="imagem3" />
             </swiper-slide>
             <swiper-slide>
-              <img loading="lazy" src="prato4.jpg" alt="prato4">
+              <img src="prato4.jpg" alt="imagem4" />
             </swiper-slide>
             <swiper-slide>
-              <img loading="lazy" src="prato5.jpg" alt="prato5">
+              <img src="prato5.jpg" alt="imagem5" />
             </swiper-slide>
           </swiper-container>
         </app-quadro>

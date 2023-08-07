@@ -19,3 +19,7 @@ body{
     max-width: 1024px;
     background-color:#f9c0b3;
 }
+
+.escondido{
+    top: -176px;
+}

@@ -8,16 +8,24 @@
     />
     <title>MM Cantiho do sabor</title>
     <link rel="stylesheet" href="global.css" />
+    <link rel="shortcut icon" href="M_M.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&display=swap" rel="stylesheet">
-    <script
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  media="print"
+    onload="this.onload=null;this.removeAttribute('media');"
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&display=swap" rel="stylesheet">
+   
+   <script
       type="module"
       src="main.js"
+   ></script>
 
+    <script
       async
       type="module"
       src="https://cdn.jsdelivr.net/gh/aboxofsox/feather-icon-web-component@master/dist/feather-icon-wc.js" 
+    ></script>
+    <script
       async
       type="module"
       src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
@@ -25,11 +33,8 @@
 
   </head>
   <body>
-  <home-section></home-section>
-  <cardapio-section></cardapio-section>
-  <sobre-nos-section></sobre-nos-section>
-  <contato-section></contato-section>
-  <historia-section></historia-section>
-  <msv-section></msv-section>
+    <app-navbar></app-navbar>
+    <div id="app"></div>
+    <app-rodapé></app-rodapé>
   </body>
 </html>

@@ -2,6 +2,8 @@ export * from './components/botao'
 export * from './components/paragrafo'
 export * from './components/titulo'
 export * from './components/quadro'
+export * from './components/navbar'
+export * from './components/rodapé'
 
 export * from './sections/home-section'
 export * from './sections/cardapio-section'
