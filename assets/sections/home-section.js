@@ -47,7 +47,7 @@ export class HomeSection extends LitElement {
       </aside>
 
       <app-paragrafo>
-        Delícias com Amor: M&M Cantinho de Sabor.
+        Delícias com Amor: MM Cantinho de Sabor.
       </app-paragrafo>`;
   }
 }

@@ -16,10 +16,6 @@ export class HistoriaSection extends LitElement {
         flex-shrink: 0;
       }
 
-      app-quadro {
-        max-width: 2000px;
-        height: 300px;
-      }
     `,
   ];
 

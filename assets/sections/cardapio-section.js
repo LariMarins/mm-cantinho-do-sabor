@@ -35,6 +35,7 @@ export class CardapioSection extends LitElement {
         justify-content: center;
         align-items: center;
         transition: transform 500ms;
+        height:100%;
       }
 
       app-botao{
@@ -55,7 +56,7 @@ export class CardapioSection extends LitElement {
           <swiper-container
             loop="true"
             autoplay="true"
-            speed="2000"
+            speed="3000"
             disabled-on-interaction="false"
             effect="coverflow"
             simulate-touch="false"
@@ -64,27 +65,22 @@ export class CardapioSection extends LitElement {
             coverflow-effect-stretch="0"
             coverflow-effect-depth="100"
             coverflow-effect-modifier="1"
-            coverflow-effect-slide-shadows="true"
-          >
+            coverflow-effect-slide-shadows="true">
+            
             <swiper-slide>
-              <img loading="lazy" src="prato1.jpg" alt="prato1" />
+              <img loading="lazy" src="prato1.jpg" alt="prato1">
             </swiper-slide>
             <swiper-slide>
-              <img
-                class="prato2"
-                loading="lazy"
-                src="prato2.jpg"
-                alt="prato2"
-              />
+              <img loading="lazy" src="prato2.jpg" alt="prato2">
             </swiper-slide>
             <swiper-slide>
-              <img loading="lazy" src="prato3.jpg" alt="prato3" />
+              <img loading="lazy" src="prato3.jpg" alt="prato3">
             </swiper-slide>
             <swiper-slide>
-              <img loading="lazy" src="prato4.jpg" alt="prato4" />
+              <img loading="lazy" src="prato4.jpg" alt="prato4">
             </swiper-slide>
             <swiper-slide>
-              <img loading="lazy" src="prato5.jpg" alt="prato5" />
+              <img loading="lazy" src="prato5.jpg" alt="prato5">
             </swiper-slide>
           </swiper-container>
         </app-quadro>
