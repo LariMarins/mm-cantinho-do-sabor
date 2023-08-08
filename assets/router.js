@@ -9,10 +9,17 @@ export function initRouter() {
             component: "home-page",
             action: () => import("./pages/home-page") 
         },
+      
         {
             path: "/sobre-nos",
             component: "sobre-nos-page",
             action: () => import("./pages/sobre-nos-page") 
+        },
+
+        {
+            path: "/cardapio",
+            component: "cardapio-page",
+            action: () => import("./pages/cardapio-page") 
         },
     ])
 

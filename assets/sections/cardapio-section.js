@@ -80,7 +80,7 @@ export class CardapioSection extends LitElement {
               <img src="prato4.jpg" alt="imagem4" />
             </swiper-slide>
             <swiper-slide>
-              <img src="prato5.jpg" alt="imagem5" />
+              <img src="prato5(2).jpg" alt="imagem5" />
             </swiper-slide>
           </swiper-container>
         </app-quadro>
