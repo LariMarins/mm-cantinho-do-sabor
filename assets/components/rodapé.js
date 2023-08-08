@@ -1,6 +1,5 @@
 import { LitElement, html, css } from "lit";
 import { nav } from "../../main";
-nav;
 
 export class Rodapé extends LitElement {
   static styles = [

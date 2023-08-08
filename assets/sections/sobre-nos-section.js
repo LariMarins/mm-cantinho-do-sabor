@@ -1,16 +1,20 @@
 import { LitElement, html, css } from "lit";
 import { section } from "../styles/section-styles";
+import { animate } from "../styles/animate-styles";
 
 export class SobreNosSection extends LitElement {
   static styles = [
     section,
+    animate,
     css`
       :host {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction:row;
+        flex-direction: row;
         gap: 63px;
+        --animate-duration: 1.5s;
+
       }
 
       aside {
@@ -19,24 +23,28 @@ export class SobreNosSection extends LitElement {
         flex-direction: column;
         gap: 4.375rem;
       }
-      app-botao{
+      app-botao {
         width: 380px;
         display: flex;
         flex-direction: center;
         align-items: center;
-        justify-content:center;
-      
+        justify-content: center;
       }
     `,
   ];
 
   render() {
     return html`
-      <app-paragrafo>
-        Seu Antônio e Dona Maria se uniram para criar o "M&M Cantinho de Sabor".
-        Com pratos caseiros cheios de amor, conquistaram o coração dos clientes
-        e tornaram-se um ponto querido na região. A tradição e o sabor se
-        misturam em cada refeição servida. Venha se deliciar conosco!
+      <app-paragrafo
+        class="animate__animated animate__slower animate__slower animate__slower
+        animate__slideInRight"
+      >
+        Desde o início, a essência do MM: Cantinho do sabor esteve enraizada na
+        simplicidade e autenticidade da cozinha familiar. Dona Maris, com sua
+        paixão pela horta cultivada no própio quintal, garante ingredientes
+        fresco e de qualidade em cada refeição preparada. Seu Antônio, por sua
+        vez é um mestre em seu atendimento o que garante ao clientes o aconcheg
+        de um lar.
       </app-paragrafo>
 
       <aside>

@@ -1,9 +1,10 @@
 import { LitElement, html, css } from "lit";
 import { section } from "../styles/section-styles";
-
+import { animate } from "../styles/animate-styles";
 export class HomeSection extends LitElement {
   static styles = [
     section,
+    animate,
     css`
       :host {
         display: flex;
@@ -35,6 +36,10 @@ export class HomeSection extends LitElement {
         height: 410px;
         box-shadow: none;
       }
+
+      app-titulo{
+        z-index:-10;
+      }
     `,
   ];
 
@@ -43,10 +48,10 @@ export class HomeSection extends LitElement {
         <app-quadro>
           <img loading="lazy" src="logo.jpg" alt="logo" />
         </app-quadro>
-        <app-titulo> <span>MM:</span>Cantinho do Sabor </app-titulo>
+        <app-titulo class="animate__animated animate__slower delay-1s animate__fadeInUp"> <span>MM:</span>Cantinho do Sabor </app-titulo>
       </aside>
 
-      <app-paragrafo>
+      <app-paragrafo class="animate__animated animate__slow animate__fadeInUp">
         Delícias com Amor: MM Cantinho de Sabor.
       </app-paragrafo>`;
   }

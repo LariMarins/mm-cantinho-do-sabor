@@ -1,9 +1,11 @@
 import { LitElement, html, css } from "lit";
 import { section } from "../styles/section-styles";
+import { animate } from "../styles/animate-styles";
 
 export class CardapioSection extends LitElement {
   static styles = [
     section,
+    animate,
     css`
       :host {
         display: flex;
@@ -80,7 +82,7 @@ export class CardapioSection extends LitElement {
               <img src="prato4.jpg" alt="imagem4" />
             </swiper-slide>
             <swiper-slide>
-              <img src="prato5(2).jpg" alt="imagem5" />
+              <img src="prato5 (2).jpg" alt="imagem5" />
             </swiper-slide>
           </swiper-container>
         </app-quadro>
@@ -90,7 +92,7 @@ export class CardapioSection extends LitElement {
         </app-botao>
       </aside>
 
-      <app-paragrafo>
+      <app-paragrafo class="animate__animated animate__slower animate__slower animate__slideInLeft">
         Delicie-se com nossos pratos caseiros que encantam o paladar e aquecem a
         alma. Nosso cardápio variado oferece opções irresistíveis, desde a
         suculenta carne de panela ao feijão fresquinho e a omelete deliciosa de
