@@ -40,6 +40,9 @@ export class HomeSection extends LitElement {
       app-titulo{
         z-index:-10;
       }
+
+    
+  
     `,
   ];
 

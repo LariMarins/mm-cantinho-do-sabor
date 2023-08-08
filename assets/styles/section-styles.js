@@ -23,4 +23,6 @@ export const section = css`
     );
     color: var(--tom1);
   }
-`;
+
+
+`
