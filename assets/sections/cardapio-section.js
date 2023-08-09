@@ -88,7 +88,7 @@ export class CardapioSection extends LitElement {
         </app-quadro>
 
         <app-botao>
-          <a href="https://www.youtube.com/"> Cardapio</a>
+          <a href="cardapio"> Cardapio</a>
         </app-botao>
       </aside>
 

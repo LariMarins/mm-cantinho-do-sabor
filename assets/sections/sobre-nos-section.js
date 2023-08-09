@@ -40,10 +40,10 @@ export class SobreNosSection extends LitElement {
         animate__slideInRight"
       >
         Desde o início, a essência do MM: Cantinho do sabor esteve enraizada na
-        simplicidade e autenticidade da cozinha familiar. Dona Maris, com sua
-        paixão pela horta cultivada no própio quintal, garante ingredientes
-        fresco e de qualidade em cada refeição preparada. Seu Antônio, por sua
-        vez é um mestre em seu atendimento o que garante ao clientes o aconcheg
+        simplicidade e autenticidade da cozinha familiar. Dona Maria, com sua
+        paixão pela horta cultivada no próprio quintal, garante ingredientes
+        frescos e de qualidade em cada refeição preparada. Seu Antônio, por sua
+        vez é um mestre em seu atendimento o que garante aos clientes o aconchego
         de um lar.
       </app-paragrafo>
 
